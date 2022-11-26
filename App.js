@@ -1,9 +1,9 @@
 import React from 'react'
 import {BrowserRouter as Router, Route} from "react-router-dom";
 import './App.css'
-import CreatePost from './pages/CreatePost';
-import MainPage from './pages/MainPage';
-import Post from './pages/Post'
+import CreatePost from './pages/CreatePost.js';
+import MainPage from './pages/MainPage.js';
+import Post from './pages/Post.js'
 
 const App = () => {
   return (
